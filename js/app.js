@@ -230,8 +230,6 @@ const showProducts = (products) => {
       <button id="details-btn" class="btn btn-outline-success">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
-
-    //////////
   }
 };
 let count = 0;

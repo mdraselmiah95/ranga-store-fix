@@ -2,10 +2,12 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+/* all products */
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
@@ -20,6 +22,9 @@ body {
   padding: 10px;
   border: 1px solid gray;
 }
+
+/* cart */
+
 .cart {
   width: 350px;
   padding: 10px;
@@ -38,7 +43,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
